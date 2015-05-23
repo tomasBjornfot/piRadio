@@ -1,1 +1,4 @@
-# radioStartup.sh
+#!/bin/bash
+cd /home/pi/newRadio
+sudo ./radio.py
+
