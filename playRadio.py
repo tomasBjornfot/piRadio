@@ -48,7 +48,7 @@ GPIO.add_event_detect(9, GPIO.FALLING, callback=radioOnOff,bouncetime=300)
 while True:
         time.sleep(60)
         print "stationNumber:",r.stationNumber
-        print "stationName:",r.stationName[r.stationNumber-1]
+        print "stationName:",r.stationNames[r.stationNumber-1]
         print "stationCategory:",r.stationCategory[r.stationNumber-1]
         print "station:",r.station
         #GPIO.cleanup()
